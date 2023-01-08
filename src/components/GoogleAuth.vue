@@ -7,8 +7,10 @@
 
 <template>
     <div>
-        <a :href="getGoogleUrl(from)">
-            <img :src="GoogleLogo" alt="Google Logo" />
+        <a :href="getGoogleUrl(from)" class="flex w-fit gap-6 py-2 px-4 bg-slate-300 rounded-md">
+            <img :src="GoogleLogo" alt="Google Logo" class="h-6"/>
+            Se connecter avec Google
+
         </a>
     </div>
 </template>
